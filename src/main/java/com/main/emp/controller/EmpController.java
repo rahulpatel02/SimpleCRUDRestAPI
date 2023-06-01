@@ -35,7 +35,7 @@ public class EmpController {
 		
 		
 	}
-	
+	//Path Parameter path 
 	@PutMapping(value = "/updateemp/{id}")
 	public void updateEmp(@PathVariable String id, @RequestBody Employee emp) {
 		empService.updateEmp(id,emp);
